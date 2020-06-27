@@ -1,9 +1,14 @@
 <?php
-    require_once 'src/header.php';
+    require_once './src/header.php';
 ?>
 
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root">Hello</div>
-  </body>
-</html>
+    <header id="main_header">
+    </header>
+    <div id="content" class="container">
+    </div>
+    <footer id="main_footer">
+    </footer>
+  
+<?php
+    require_once './src/footer.php';
+?>
